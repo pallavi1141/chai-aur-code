@@ -1,9 +1,11 @@
 //**********************************************..... Array.....***************************************** */
 //Array syntax
 const myArray = [0, 1, 2, 3, 4, 5];
-const myHeros = ["shaktiman", "naagraj"];
+const myHeros = ["shaktiman", "naagraj", "guddu", "sanju", "sameer"];
 const myArr2 = new Array(1, 2, 3, 4, 5);
-// console.log(myArray[0]);
+// console.log(myArray[1]);
+// console.log(myHeros[4]);
+// console.log(myArr2[3]);
 
 
 
@@ -17,6 +19,8 @@ const myArr2 = new Array(1, 2, 3, 4, 5);
 // myArray.unshift(7)// print (add a value 7 in the starting)
 // myArray.shift ()  //print (remove 7 and zero)
 // console.log(myArray); //print 0, 1, 2, 3, 4, 5, 6
+
+
 
 // console.log(myArray.includes(7)) //print (false)
 // console.log(myArray.includes(6)) //print (true)
@@ -35,13 +39,13 @@ const newArr = myArray.join();
 
 //slice, splice
 
-console.log("A", myArray); //print A[0, 1, 2, 3, 4, 5]
-console.log("B", myArray); //print B[0, 1, 2, 3, 4, 5]
-console.log("c", myArray);
+// console.log("A", myArray); //print A[0, 1, 2, 3, 4, 5]
+// console.log("B", myArray); //print B[0, 1, 2, 3, 4, 5]
+// console.log("c", myArray);
 
-const myn1 = myArray.slice(1, 3);
-console.log(myn1); // print [1, 2]
+const myn1 = myArray.slice(1, 5);
+// console.log(myn1); // print [1, 2]
 
-const myn2 = myArray.splice(1, 3);
+const myn2 = myArray.splice(1,3);
 console.log("d", myArray);
 console.log(myn2); // print [1, 2, 3]

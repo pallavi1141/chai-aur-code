@@ -15,11 +15,11 @@ function sayMYName() {
 
 
 
-function addTwoNumbers(number1, number2) {
+function addTwoNumbers(number1, number2) {      //(number1, number2)this is parameters of function
   console.log(number1 + number2);
 }
 
-// addTwoNumbers(6, 4);
+// addTwoNumbers(6, 4);              //() This bract is execution here (6,4)This is arguments of the function
 // addTwoNumbers(6, "4");
 // addTwoNumbers(6, null);
 // addTwoNumbers(6, "a");
@@ -28,14 +28,16 @@ function addTwoNumbers(number1, number2) {
 
 
 function addTwoNumbers(number1, number2) {
-  let result = number1 + number2;
-  console.log(number1 + number2); // print 10
-  return result;
-  console.log("pallavi"); // don't execute after the return value
+  // let result = number1 + number2;
+  // console.log(number1 + number2); // print 10
+  // return result;
+  // console.log("pallavi"); // will not execute after the return value
+
+  
 }
 
-//   let result = addTwoNumbers(6, 4)
-//   console.log("Result:", result) // print  (Result: 10)
+  // let result = addTwoNumbers(6, 4)
+  // console.log("Result:", result) // print  (Result: 10)
 
 
 
@@ -47,7 +49,7 @@ function addOtherNumbers(number3, number4) {
   return number3 + number4;
 }
 
-let result = addOtherNumbers(4, 4);
+// let result = addOtherNumbers(4, 4);
 // console.log("Result:", result); // print  (Result: 8)
 
 
@@ -69,19 +71,23 @@ function LoginUserMessage(username) {
 
 function signName(Name = "sam"){
 
-    if(Name === undefined ){
+    if(Name === "sam"){
         
         console.log("please enter your number")
         
 
 
     }
+
+    else{
+      console.log("please enter your email id")
+    }
     return `${Name} just sign in`
         
 
 }
 
-// console.log(signName("sunder"))
+console.log(signName())
 
 
 

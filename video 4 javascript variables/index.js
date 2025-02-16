@@ -14,6 +14,7 @@ console.log(accountId);
 accountEmail = "pallavirajput@gmail.com";
 accountCity = "punjab";
 accountPassword = "390"; // This is allowed we can changed the this variable.
+accountPassword = 1200
 console.table([
   accountId,
   accountEmail,

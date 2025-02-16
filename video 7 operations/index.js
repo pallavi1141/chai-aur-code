@@ -1,6 +1,6 @@
 //**********************************operations******************************//
 
-// let value = 3;
+let value = 3;
 // let negValue = -value;
 // console.log(value);
 
@@ -47,6 +47,6 @@
 // ++gameCounter;
 // console.log(gameCounter);
 
-// let someNumber = 102
+// let someNumber = 105
 // ++someNumber;
 // console.log(someNumber);

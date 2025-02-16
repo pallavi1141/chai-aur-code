@@ -13,7 +13,7 @@ let userEmail; //undefined
 
 const id = Symbol("123");
 const anotherId = Symbol("123");
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const bigNumber = 5780923477746236523n; //BigInt
 
@@ -38,7 +38,7 @@ let myObj = {
 
 // Example of functions
 const myFunction = function () {
-  console.log("hello world");
+  // console.log("hello world");
 }
 
 
@@ -58,6 +58,6 @@ console.log(typeof id); //symbol
 
 
 //identify the non primitive datatypes
-console.log(typeof myFunction);//function
-console.log(typeof greatMan);//object
-console.log(typeof myObj);//object
+// console.log(typeof myFunction);//function
+// console.log(typeof greatMan);//object
+// console.log(typeof myObj);//object

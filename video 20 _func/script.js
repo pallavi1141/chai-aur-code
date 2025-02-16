@@ -18,7 +18,7 @@ function calculateCartPrice (...num1){
   
   
   // How to used object in the function
-  const user ={
+  const user = {
   
     username:"hitesh",
     price: 199
@@ -30,7 +30,7 @@ function calculateCartPrice (...num1){
   
   }
   
-  handleObject(user)
+  // handleObject(user)
   
   //direct pass object in the function
   handleObject({
@@ -47,14 +47,22 @@ function calculateCartPrice (...num1){
   const myNewArray =[200, 400, 800, 600]
   
   function returnSecondValue(getArray){
-    return getArray[2]
+    return getArray[1]
   
   }
   
   // console.log(returnSecondValue(myNewArray))
   // direct pass the array in the function
   console.log(returnSecondValue([200, 400, 800, 600]))
-  
+
+
+  let Array = ["sam", "sang", "game", "plane"]
+
+  function gameValue (obtainArray){
+    return obtainArray
+
+  }
+  console.log(gameValue(Array))
   
   
   
